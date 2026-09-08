@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createOrder } from "../services/razorpay";
 
-const qrImageUrl = `${import.meta.env.VITE_API_URL}/uploads/QR-donation.png`;
+const qrImageUrl = "/QR-donation.png";
 
 const Donate = () => {
   const [formData, setFormData] = useState({
