@@ -27,7 +27,7 @@ export const submitContactMessage = asyncHandler(async (req, res) => {
     `,
   });
 
-  const adminEmail = process.env.FROM_EMAIL || 'info@onewayfoundation.org';
+  const adminEmail = process.env.FROM_EMAIL || 'info@onewayfoundation.info';
   await sendEmail({
     to: adminEmail,
     subject: `New Contact Message: ${subject}`,

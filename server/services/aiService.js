@@ -29,7 +29,7 @@ If you cannot answer:
 - "Thank you for reaching out. Our team will contact you within 24 hours via WhatsApp or call."
 - Suggest: WhatsApp support or direct contact
 
-Contact: info@onewayfoundation.org | +91-XXXXXXXXXX`;
+Contact: info@onewayfoundation.info | +91-XXXXXXXXXX`;
 
 export const chatAI = async (message) => {
   try {

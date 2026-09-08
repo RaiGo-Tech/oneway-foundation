@@ -245,7 +245,7 @@ const SupportPanel = ({ isOpen, onClose }) => {
 
                     {/* Email Support */}
                     <a
-                      href="mailto:info@onewayfoundation.org"
+                      href="mailto:info@onewayfoundation.info"
                       className="flex items-center gap-4 p-4 bg-gradient-to-r from-slate-600 to-slate-700 rounded-2xl text-white hover:from-slate-700 hover:to-slate-800 transition-all hover:shadow-lg group"
                     >
                       <div className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center">
@@ -255,7 +255,7 @@ const SupportPanel = ({ isOpen, onClose }) => {
                       </div>
                       <div className="flex-1">
                         <p className="font-bold">Email Support</p>
-                        <p className="text-slate-200 text-sm">info@onewayfoundation.org</p>
+                        <p className="text-slate-200 text-sm">info@onewayfoundation.info</p>
                       </div>
                       <svg className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -155,7 +155,7 @@ const donationReceiptTemplate = (donation) => {
           📞 +91 98765 43210
         </p>
         <p style="color: #9ca3af; margin: 0 0 15px 0; font-size: 13px;">
-          ✉️ info@onewayfoundation.org
+          ✉️ info@onewayfoundation.info
         </p>
         <p style="color: #6b7280; margin: 0; font-size: 12px;">
           <a href="https://onewayfoundation.org" style="color: #f97316; text-decoration: none;">Website</a> | 

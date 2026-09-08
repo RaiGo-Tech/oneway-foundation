@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createOrder } from "../services/razorpay";
 
+const qrImageUrl = `${import.meta.env.VITE_API_URL}/uploads/QR-donation.png`;
 
 const Donate = () => {
   const [formData, setFormData] = useState({
@@ -116,6 +117,23 @@ const Donate = () => {
           <h2 className="text-3xl font-bold mb-8 text-gray-800 text-center">
             Make a Donation
           </h2>
+
+          <div className="mb-8 flex flex-col items-center gap-4 rounded-2xl border border-orange-100 bg-orange-50/60 p-6 text-center shadow-sm">
+            <div className="flex h-28 w-28 items-center justify-center overflow-hidden rounded-2xl bg-white p-2 shadow-md ring-1 ring-orange-200">
+              <img
+                src={qrImageUrl}
+                alt="ONEWAY FOUNDATION donation QR code"
+                className="h-full w-full object-contain"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div>
+              <p className="text-lg font-semibold text-slate-800">Secure Donation QR</p>
+              <p className="text-sm text-slate-600">
+                Scan this QR code to donate securely via the trusted payment flow.
+              </p>
+            </div>
+          </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
 
